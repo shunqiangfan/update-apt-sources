@@ -1,4 +1,6 @@
 #!/bin/bash
+set -e
+
 mv /etc/apt/sources.list /etc/apt/sources.list.bak
 cat << EOF > /etc/apt/sources.list
 # The source image is annotated by default to speed up APT Update. You can uncomment it if necessary
